@@ -1,10 +1,10 @@
 {
-  "name": "wassup",
+  "name": "Chatup",
   "version": "1.0.0",
-  "description": "",
+  "description": "Real Time Chat application build using socket.io and vanilla Javascript",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server",
+    "start": "nodemon server",
     "serve": "node server"
   },
   "keywords": [],
