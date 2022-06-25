@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChatUp Realtime</title>
     <link rel="stylesheet" href="/public/style.css">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./public/favicon.ico">
 
 </head>
 
 <body>
     <section class="chat__section">
         <div class="brand">
-            <img height="40" src="/chatup.png" alt="">
+            <img height="40" src="./public/chatup.png" alt="">
             <h1>ChatUp</h1>
         </div>
         <div class="message__area"></div>
@@ -21,8 +21,8 @@
             <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
         </div>
     </section>
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/public/client.js"></script>
+    <script src="./node_modules/socket.io/socket.io.js"></script>
+    <script src="./public/client.js"></script>
 </body>
 
 </html>
