@@ -4,10 +4,10 @@ let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
 do {
     name = prompt('Please enter your name: ')
-} while(!name)
+} while (!name)
 
 textarea.addEventListener('keyup', (e) => {
-    if(e.key === 'Enter') {
+    if (e.key === 'Enter') {
         sendMessage(e.target.value)
     }
 })
@@ -49,6 +49,5 @@ socket.on('message', (msg) => {
 function scrollToBottom() {
     messageArea.scrollTop = messageArea.scrollHeight
 }
-
 
 
